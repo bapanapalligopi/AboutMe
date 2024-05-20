@@ -1,0 +1,81 @@
+.container {
+  color: white;
+  background-color: rgb(65, 65, 65);
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.developer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.developername,
+.developerphone,
+.developermail {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.name,
+.phone,
+.mail {
+  margin-top: 1.8px;
+  font-weight: bolder;
+}
+
+/* social media*/
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.top {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.toplink {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+  }
+  .developer {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 0;
+  }
+
+  .developername,
+  .developerphone,
+  .developermail {
+    flex-direction: row;
+  }
+  .socialmedia {
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+  }
+}

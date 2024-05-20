@@ -139,7 +139,7 @@
   }
   .objective {
     /* color: whitesmoke; */
-    color: rgb(147, 144, 144);
+    color: white;
 
     text-align: justify;
     justify-content: flex-start;

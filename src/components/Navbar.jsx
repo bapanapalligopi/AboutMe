@@ -79,6 +79,18 @@ export default function Navbar() {
                   Skills
                 </a>
               </li>
+              <li
+                className={`nav-item ${styles.navitem_li}`}
+                onClick={handleNavClickLinks}
+              >
+                <a
+                  to="/skills"
+                  className={styles.navitem_link}
+                  href="#certifications"
+                >
+                  Certifications
+                </a>
+              </li>
 
               <li
                 className={`nav-item ${styles.navitem_li}`}

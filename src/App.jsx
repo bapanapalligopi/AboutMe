@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Last from "./components/Last";
 import Certifications from "./components/Certifications";
+import Profiles from "./components/Profiles";
 // import Footer from "./components/Footer";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <Projects />
       <Skills />
       <Certifications />
+      <Profiles />
       <Contact />
       <Last />
     </div>

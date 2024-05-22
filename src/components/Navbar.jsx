@@ -91,7 +91,14 @@ export default function Navbar() {
                   Certifications
                 </a>
               </li>
-
+              <li
+                className={`nav-item ${styles.navitem_li}`}
+                onClick={handleNavClickLinks}
+              >
+                <a className={styles.navitem_link} href="#profiles">
+                  Profiles
+                </a>
+              </li>
               <li
                 className={`nav-item ${styles.navitem_li}`}
                 onClick={handleNavClickLinks}

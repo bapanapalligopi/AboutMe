@@ -1,0 +1,56 @@
+.container {
+  color: white;
+}
+.profilesMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.profilecard {
+  display: flex;
+  margin-top: 30px;
+}
+.profileimage {
+  border-radius: 10px;
+  height: 200px;
+}
+.profleviewbutton {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-weight: bold;
+  color: black;
+  background-color: green;
+}
+.profleviewbutton:hover {
+  background-color: transparent;
+  border: 2px solid green;
+}
+.allprofiles {
+  /* display: flex;
+  flex-direction: row;
+  gap: 20px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.profiledesc {
+  text-align: justify;
+  font-size: 12px;
+}
+@media only screen and (max-width: 1000px) {
+  .allprofiles {
+    display: flex;
+    flex-direction: column;
+  }
+  .profileimage {
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+  }
+}

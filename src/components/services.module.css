@@ -1,0 +1,123 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.serviceHeading h1 {
+  background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  margin-top: 20px;
+}
+.serviceHeading img {
+  position: relative;
+  z-index: -1;
+}
+.allservices {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.singleService {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #ff00ff;
+  padding: 20px;
+  gap: 30px;
+  background: linear-gradient(270deg, #ff00ff, #c8ff00);
+  border-radius: 10px;
+}
+.singleService:hover {
+  background: linear-gradient(270deg, #c8ff00, #ff00ff);
+  color: black;
+  cursor: pointer;
+}
+.serviceimage {
+  width: 700px;
+  height: 400px;
+  border-radius: 10px;
+}
+.aboutService {
+  display: flex;
+  flex-direction: column;
+}
+.serviceName {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+.serviceDesc {
+  text-align: justify;
+  color: black;
+  font-weight: 400;
+}
+
+.moreAboutService {
+  margin-top: 14px;
+  text-decoration: none;
+}
+.moreAboutService a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background: linear-gradient(140deg, #0dbbe2, #d11a4b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 1000px) {
+  .allservices {
+    margin-top: 20px;
+  }
+  .serviceHeading h1 {
+    margin-top: 30px;
+  }
+  .singleService {
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    gap: 0px;
+  }
+
+  .serviceimage {
+    width: 100%;
+    height: fit-content;
+  }
+  .serviceName {
+    margin-top: 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .serviceDesc {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .moreAboutService {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+}

@@ -74,6 +74,18 @@ export default function Navbar() {
                 <a
                   to="/skills"
                   className={styles.navitem_link}
+                  href="#services"
+                >
+                  Services
+                </a>
+              </li>
+              <li
+                className={`nav-item ${styles.navitem_li}`}
+                onClick={handleNavClickLinks}
+              >
+                <a
+                  to="/skills"
+                  className={styles.navitem_link}
                   href="#skillsec"
                 >
                   Skills

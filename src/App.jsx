@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Last from "./components/Last";
 import Certifications from "./components/Certifications";
 import Profiles from "./components/Profiles";
+import Services from "./components/Services";
 // import Footer from "./components/Footer";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <Skills />
       <Certifications />
       <Profiles />
+      <Services />
       <Contact />
       <Last />
     </div>

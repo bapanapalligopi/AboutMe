@@ -4,13 +4,10 @@ export default function Aboutsection() {
   return (
     <div className={styles.aboutsection}>
       <div className={styles.theory}>
-        <p className={styles.singleword}>
-          <span className={styles.singlewordspan}>Driven</span>, Innovative,
-          Quick Learner.
-        </p>
-        <p className={styles.role}>
-          Software <span className={styles.singlewordspan}>Engineer</span>
-        </p>
+        <p className={styles.singleword}>Driven, Innovative, Quick Learner.</p>
+        <div className={styles.role}>
+          <p>Software Engineer</p>
+        </div>
         <p>
           Equipped with a Bachelor of Technology degree in Information
           Technology and boasting a commendable CGPA of 7.91, I embody a

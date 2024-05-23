@@ -12,7 +12,20 @@
   font-family: sans-serif;
   font-size: 30px;
   font-weight: bold;
+  margin-top: 25px;
+  position: relative;
+}
+.skillsheading h1 {
+  background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
   margin-top: 20px;
+}
+.skilss img {
+  position: relative;
+  z-index: -1;
 }
 .listOfSingleSkills {
   margin-left: 0px;
@@ -24,7 +37,7 @@
 }
 
 .singleskillContainer {
-  padding: 10px;
+  /* padding: 10px; */
   /* background-color: #e0115f; */
   display: flex;
   flex-direction: column;
@@ -35,9 +48,10 @@
   font-weight: bolder;
   font-size: 20px;
   border-radius: 10px;
+  padding: 10px;
 }
 .singleskillContainer:hover {
-  background-color: gray;
+  background-image: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
 }
 .skilllogo {
   margin-bottom: 20px;
@@ -61,10 +75,13 @@
 .dbmessage,
 .fwmessage {
   margin-top: 35px;
-  color: rgb(166, 164, 164);
+  background: linear-gradient(180deg, #ff00ff 10%, #00ff84 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: sans-serif;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -75,6 +92,9 @@
   .skillsheading {
     font-size: 30px;
     margin-top: 0px;
+  }
+  .skillsheading h1 {
+    margin-top: 30px;
   }
   .listOfSingleSkills {
     margin-left: 0px;

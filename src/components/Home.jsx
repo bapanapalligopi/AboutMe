@@ -57,19 +57,19 @@ export default function Home() {
       <div className={styles.socialmedia}>
         <div className={styles.linkedin}>
           <a href="https://www.linkedin.com/in/bapanapalli-gopi-55a2771a7/">
-            <GrLinkedinOption color="white" />
+            <GrLinkedinOption color="#ff00ff" />
           </a>
         </div>
         <div className={styles.github}>
           <a href="https://github.com/bapanapalligopi">
             {" "}
-            <FaGithub color="white" />
+            <FaGithub color="#c8ff00" />
           </a>
         </div>
         <div className={styles.mail}>
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZfSkgnkSnKmXQGVgZCflBCwScbdLnHCQLHhFjWJDqcshnGTWqgHMHRvHfnMFpjrHbmxfL">
             {" "}
-            <IoMailUnread color="white" />
+            <IoMailUnread color="#00ff22" />
           </a>
         </div>
       </div>

@@ -1,9 +1,12 @@
 .name {
-  color: #e0115f;
+  background: linear-gradient(50deg, #ff00ff, #c8ff00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: sans-serif;
 }
 .active {
-  border-bottom: 2px solid #e0115f;
+  border-bottom: 2px solid #ff00ff;
 }
 .navbar {
   position: relative;
@@ -25,22 +28,23 @@
   width: 40px;
   height: 40px;
   border-radius: 40px;
-  border: 3.5px solid #e0115f;
+  border: 3.5px solid;
+  border-color: #ff00ff;
 }
 /* .navbarcollapse {
   display: none;
 } */
 .toggle {
-  background-color: #e0115f;
+  background-color: #c8ff00;
 }
 .togglebut {
-  background-color: #e0115f;
+  background-color: #c8ff00;
 }
 .togglebut:hover {
-  background-color: #e0115f;
+  background-color: #c8ff00;
 }
 .navbarcontainer {
-  background-color: rgba(220, 41, 41, 0);
+  background-color: black;
 }
 .navitems_ul {
   display: flex;
@@ -49,6 +53,10 @@
 }
 .navitem_li {
   color: #f5f5f5;
+  background: linear-gradient(50deg, #ff00b7 20%, #00ff66);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: larger;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
@@ -59,14 +67,11 @@
   cursor: pointer;
   color: whitesmoke;
 }
-.navitem_link:hover {
-  border-bottom: 4px solid #e0115f;
-}
 .hireme {
-  background-color: #e0115f;
+  background: linear-gradient(50deg, #ff00ff, #c8ff00);
   width: 100px;
-  border: 2px solid #e0115f;
   border-radius: 10px;
+  border: none;
   color: white;
 }
 .hireme:hover {

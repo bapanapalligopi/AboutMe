@@ -4,10 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import contactme from "../images/contactme.png";
 import gfg from "../certificates/gfg.png";
 import AllCertificates from "./AllCertificates";
+import theme from "../assets/theme_pattern.svg";
+
 const Certifications = () => {
   return (
     <div className={`container ${styles.container}`} id="certifications">
-      <div className={styles.CertificationsMessage}>Certifications</div>
+      <div className={styles.CertificationsMessage}>
+        <h1>Certifications</h1>
+        <img src={theme} alt="" />
+      </div>
       <div className={styles.certificates}>
         <div
           id="carouselExampleAutoplaying"

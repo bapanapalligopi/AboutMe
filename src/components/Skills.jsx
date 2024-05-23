@@ -8,10 +8,15 @@ import Frontendskill from "./Frontendskill";
 import langskills from "./Languageskills";
 import dbskills from "./Databaseskills";
 import Frameworkskill from "./Frameworkskill";
+import theme from "../assets/theme_pattern.svg";
+
 export default function Skills() {
   return (
     <div className={`container ${styles.skillscontainer}`} id="skillsec">
-      <div className={styles.skillsheading}>Skills</div>
+      <div className={styles.skillsheading}>
+        <h1>My Skills</h1>
+        <img src={theme} alt="" />
+      </div>
       <div>
         <div className={`${styles.frontendskills}`}>
           <div className={styles.message}>FrontEnd</div>

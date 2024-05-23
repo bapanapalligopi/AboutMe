@@ -48,7 +48,7 @@ const Last = () => {
         </div>
         <div>
           <a href="https://github.com/bapanapalligopi">
-            <GrGithub fontSize="2rem" color="black" />
+            <GrGithub fontSize="2rem" color="white" />
           </a>
         </div>
         <div>

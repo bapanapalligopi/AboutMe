@@ -3,7 +3,6 @@
   flex-direction: column;
   position: relative;
   z-index: 3;
-  margin-top: 10px;
 }
 .contact {
   display: flex;
@@ -17,6 +16,19 @@
   justify-content: center;
   text-align: center;
   font-weight: bolder;
+  position: relative;
+}
+.contactheading h1 {
+  background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  margin-top: 20px;
+}
+.contactheading img {
+  position: relative;
+  z-index: -1;
 }
 .contactmetext {
   margin-top: 6%;
@@ -64,8 +76,8 @@
   font-weight: bolder;
   font-size: 25px;
   padding: 1px;
-  background-color: #e0115f;
-  border: 2px solid #e0115f;
+  background: linear-gradient(50deg, #00bbff, #c8ff00);
+  border: none;
   text-align: center;
   border-radius: 50px;
   cursor: pointer;
@@ -73,7 +85,6 @@
 }
 .submit:hover {
   background-color: transparent;
-  color: #e0115f;
 }
 
 .social {
@@ -165,7 +176,8 @@
     /* box-shadow: 1px 1px 1px 1.5px whitesmoke; */
   }
 
-  .contactmetext {
+  .contactheading h1 {
+    margin-top: 30px;
   }
   .contactmeImage {
     width: 100%;
@@ -194,14 +206,7 @@
     margin: 10px;
     margin-bottom: 20px;
   }
-  .connect {
-    margin-top: 20px;
-  }
-  .connectwithme {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-  }
+
   .social {
     margin-top: 20px;
     color: #e0115f;

@@ -4,10 +4,14 @@ import Projects0 from "./Projects0";
 import Projectone from "./Projectsone";
 import Projecttwo from "./Projecttwo";
 import Linkproject from "./Linkproject";
+import themeimage from "../assets/theme_pattern.svg";
 export default function Projects() {
   return (
     <div className={`container ${styles.projectscontainer}`} id="projectsec">
-      <div className={styles.projectheading}>Projects</div>
+      <div className={styles.projectheading}>
+        <h1>Projects</h1>
+        <img src={themeimage} alt="projects" />
+      </div>
       <div>
         {" "}
         <div className={styles.threeprojects}>

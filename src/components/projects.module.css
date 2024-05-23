@@ -12,17 +12,35 @@
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  font-size: 30px;
   color: white;
   font-weight: bolder;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.projectheading h1 {
+  padding: 0px 30px;
+  font-size: 50px;
+  font-weight: 600;
+  background: linear-gradient(10deg, #ff00ff 20%, #c8ff00 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projectheading img {
+  position: absolute;
+
+  z-index: -1;
 }
 .singleprojects {
   width: 350px;
   height: fit-content;
-  background-color: transparent;
-  background-color: white;
   border-radius: 10px;
+  color: white;
+  border: 2px solid #ff00ff;
+}
+.singleprojects:hover {
+  cursor: pointer;
+  background-image: linear-gradient(50deg, #ff00ff, #3fa3ce);
 }
 
 .threeprojects,
@@ -43,22 +61,36 @@
 .titleanddesc {
   padding: 10px;
 }
-.title,
+.title {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 800;
+  background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .languages {
   font-size: 15px;
   font-family: sans-serif;
-  font-weight: bolder;
-  color: black;
+  font-weight: 900;
+  color: white;
+  background: linear-gradient(10deg, #00ff22 10%, #c8ff00 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.desc,
-.langskills {
+.desc {
   margin-bottom: 10px;
   font-size: 10px;
   font-weight: 300;
   font-family: sans-serif;
   text-align: justify;
-  color: black;
+  color: white;
   text-transform: lowercase;
+}
+.langskills {
+  font-weight: 500;
 }
 .source {
   display: flex;
@@ -81,7 +113,7 @@
 .viewcode:hover,
 .videodemo:hover,
 .livedemo:hover {
-  background-color: #e0115f;
+  background-image: linear-gradient(60deg, #c8ff00, #22c622);
 }
 .codeview,
 .liveview,
@@ -89,7 +121,8 @@
   margin-top: 5px;
   margin-bottom: 5px;
   text-decoration: none;
-  color: black;
+  color: white;
+  font-weight: 500;
 }
 .codeview:hover,
 .liveview:hover,
@@ -112,14 +145,41 @@
     margin-bottom: 50px;
     flex-direction: column;
   }
+  .projectheading h1 {
+    padding: 0px 30px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+
   .singleprojects {
     width: 100%;
     height: fit-content;
     margin-bottom: 20px;
   }
+
   .desc,
   .langskills {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .title {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .languages {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(10deg, #00ff22 10%, #c8ff00 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .source {
     flex-direction: column;
@@ -131,10 +191,9 @@
   .livedemo,
   .videodemo {
     margin-bottom: 20px;
-
     width: 100%;
     height: fit-content;
-    background-color: #e0115f;
+    background-image: linear-gradient(50deg, #c8ff00 50%, #22c622);
   }
   .viewcode:hover,
   .videodemo:hover,

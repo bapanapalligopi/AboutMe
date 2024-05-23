@@ -7,13 +7,25 @@
   margin-top: 30px;
 }
 .aboutheading {
-  color: white;
   display: flex;
   justify-content: center;
   text-align: center;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 30px;
+  position: relative;
+}
+.aboutheading h1 {
+  background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  margin-top: 20px;
+}
+.aboutheading img {
+  position: relative;
+  z-index: -1;
 }
 .about {
   display: flex;
@@ -36,12 +48,18 @@
 }
 .singleword {
   margin-top: 10px;
+  background: linear-gradient(60deg, #00ff22 60%, #c8ff00 6%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
-.singlewordspan {
-  color: #e0115f;
-}
-.role {
-  color: white;
+
+.role p {
+  background: linear-gradient(60deg, #ff00ff 70%, #c8ff00 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 20px;
 }
 .aboutme {
@@ -52,7 +70,6 @@
 .abouttheory {
   display: flex;
   flex-direction: column;
-  gap: 0px;
 }
 
 .aboutsection {
@@ -67,7 +84,7 @@
   color: white;
   justify-content: left;
   text-align: justify;
-  margin-bottom: 0px;
+  font-weight: 400;
 }
 .certifications {
   margin-top: 0px;
@@ -84,12 +101,16 @@
 .certificationsmessage {
   font-family: sans-serif;
   font-size: 20px;
-  color: white;
-  font-weight: bolder;
+  font-weight: bold;
+  background: linear-gradient(10deg, #d2158d 5%, #c8ff00 40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .certificatelink {
   text-decoration: none;
   color: white;
+  font-weight: 400;
 }
 .certificate {
   font-size: 15px;
@@ -105,14 +126,15 @@
 .tickmark:hover {
   color: white;
 }
+
 @media only screen and (max-width: 1000px) {
   .aboutcontainer {
     margin-top: 0px;
     flex-direction: column;
   }
-  .aboutheading {
-    margin-top: 0px;
-    margin: 0px;
+  .aboutheading h1 {
+    margin-top: 30px;
+    font-weight: 900;
   }
   .aboutsection {
     margin: 0px;
@@ -136,16 +158,24 @@
     color: white;
     font-size: 15px;
   }
+  .role p {
+    background: linear-gradient(60deg, #ff00ff 20%, #c8ff00 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 900;
+  }
   .singleword {
     text-align: center;
   }
   .theory {
     color: white;
-
     font-size: 15px;
     text-align: justify;
     margin: 0px;
     padding: 10px;
+    font-weight: 400;
   }
   .allcertifications,
   .certifications {

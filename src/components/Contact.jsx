@@ -2,6 +2,7 @@ import styles from "./contact.module.css";
 import { useState } from "react";
 import contactme from "../images/contactme.png";
 import emailjs from "emailjs-com";
+import theme from "../assets/theme_pattern.svg";
 
 export default function Contact() {
   const [submitstatus, setStatus] = useState(false);
@@ -81,7 +82,10 @@ export default function Contact() {
   };
   return (
     <div className={`container ${styles.contactcontainer}`} id="contactsection">
-      <div className={styles.contactheading}>Contact</div>
+      <div className={styles.contactheading}>
+        <h1>Contact Me</h1>
+        <img src={theme} alt="" />
+      </div>
       <div className={styles.contact}>
         <div className={styles.contactmetext}>
           <img src={contactme} alt="" className={styles.contactmeImage} />

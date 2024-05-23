@@ -10,7 +10,7 @@ import { SiIntellijidea } from "react-icons/si";
 const allskills = {
   springboot: [
     "SpringBoot",
-    <BiLogoSpringBoot key="framework" color="white" fontSize="6rem" />,
+    <BiLogoSpringBoot key="framework" color="green" fontSize="6rem" />,
   ],
   redis: ["Redis", <DiRedis key="framework" color="red" fontSize="6rem" />],
   kafka: [
@@ -21,14 +21,14 @@ const allskills = {
     "Rest API'S",
     <TbApi key="framework" color="green" fontSize="6rem" />,
   ],
-  aws: ["AWS", <FaAws key="framework" color="white" fontSize="6rem" />],
+  aws: ["AWS", <FaAws key="framework" color="yellow" fontSize="6rem" />],
   gitgub: [
     "GIT",
-    <FaGithubSquare key="framework" color="violet" fontSize="6rem" />,
+    <FaGithubSquare key="framework" color="white" fontSize="6rem" />,
   ],
   vscode: [
     "VS CODE",
-    <TbBrandVscode key="framework" color="orange" fontSize="6rem" />,
+    <TbBrandVscode key="framework" color="#0078d7" fontSize="6rem" />,
   ],
   intellij: [
     "Intellij",

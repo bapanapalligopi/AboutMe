@@ -15,7 +15,6 @@ export default function Skills() {
     <div className={`container ${styles.skillscontainer}`} id="skillsec">
       <div className={styles.skillsheading}>
         <h1>My Skills</h1>
-        <img src={theme} alt="" />
       </div>
       <div>
         <div className={`${styles.frontendskills}`}>

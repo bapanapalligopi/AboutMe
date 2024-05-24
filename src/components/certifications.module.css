@@ -8,7 +8,6 @@
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
-  position: relative;
 }
 .CertificationsMessage h1 {
   background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
@@ -18,12 +17,9 @@
   position: absolute;
   margin-top: 20px;
 }
-.CertificationsMessage img {
-  position: relative;
-  z-index: -1;
-}
+
 .certificatesCarouselSlideBar {
-  margin-top: 30px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   text-align: center;

@@ -16,19 +16,19 @@ const Last = () => {
       <div className={styles.developer}>
         <div className={styles.developername}>
           <div>
-            <FaUserTie color="#e0115f" fontSize="1.5rem" />{" "}
+            <FaUserTie color="white" fontSize="1.5rem" />{" "}
           </div>
           <div className={styles.name}> Developed by Gopi Bapanapalli</div>
         </div>
         <div className={styles.developerphone}>
           <div>
-            <MdSettingsPhone color="#e0115f" fontSize="1.5rem" />{" "}
+            <MdSettingsPhone color="white" fontSize="1.5rem" />{" "}
           </div>
           <div className={styles.phone}>7672005018</div>
         </div>
         <div className={styles.developermail}>
           <div>
-            <SiGmail color="#e0115f" fontSize="1.5rem" />{" "}
+            <SiGmail color="white" fontSize="1.5rem" />{" "}
           </div>
           <div className={styles.mail}>bapanapalligopi7@gmail.com</div>
         </div>

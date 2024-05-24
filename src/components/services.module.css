@@ -6,13 +6,11 @@
 
 .serviceHeading {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
-  position: relative;
 }
 
 .serviceHeading h1 {
@@ -22,10 +20,6 @@
   -webkit-text-fill-color: transparent;
   position: absolute;
   margin-top: 20px;
-}
-.serviceHeading img {
-  position: relative;
-  z-index: -1;
 }
 .allservices {
   margin-top: 5rem;
@@ -41,7 +35,7 @@
   border: 2px solid #ff00ff;
   padding: 20px;
   gap: 30px;
-  background: linear-gradient(270deg, #ff00ff, #c8ff00);
+  background: linear-gradient(270deg, #f48cf4, #c8ff00);
   border-radius: 10px;
 }
 .singleService:hover {
@@ -115,7 +109,6 @@
     font-size: 10px;
     font-weight: 500;
   }
-
   .moreAboutService {
     font-size: 15px;
     margin-bottom: 5px;

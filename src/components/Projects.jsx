@@ -10,7 +10,6 @@ export default function Projects() {
     <div className={`container ${styles.projectscontainer}`} id="projectsec">
       <div className={styles.projectheading}>
         <h1>Projects</h1>
-        <img src={themeimage} alt="projects" />
       </div>
       <div>
         {" "}

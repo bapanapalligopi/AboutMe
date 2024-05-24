@@ -8,7 +8,6 @@ const Services = () => {
     <div className={`container ${styles.container}`} id="services">
       <div className={styles.serviceHeading}>
         <h1>My Services</h1>
-        <img src={theme} alt="" />
       </div>
       <div className={styles.allservices}>
         {AllServices.map((myservice) => {

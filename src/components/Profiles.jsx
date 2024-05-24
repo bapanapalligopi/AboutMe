@@ -10,7 +10,6 @@ const Profiles = () => {
     <div className={`container ${styles.container}`} id="profiles">
       <div className={styles.profilesMessage}>
         <h1>Profiles</h1>
-        <img src={theme} alt="" />
       </div>
       <div className={styles.allprofiles}>
         {Allproflies.map((profile) => {

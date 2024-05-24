@@ -16,14 +16,12 @@
   justify-content: center;
   text-align: center;
   font-weight: bolder;
-  position: relative;
 }
 .contactheading h1 {
   background: linear-gradient(10deg, #ff00ff 4%, #c8ff00 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  position: absolute;
   margin-top: 20px;
 }
 .contactheading img {
@@ -72,11 +70,11 @@
 .submit {
   width: 400px;
   height: 40px;
-  color: white;
+  color: black;
   font-weight: bolder;
   font-size: 25px;
   padding: 1px;
-  background: linear-gradient(50deg, #00bbff, #c8ff00);
+  background: linear-gradient(50deg, #8ec7e4, #e6ecce);
   border: none;
   text-align: center;
   border-radius: 50px;

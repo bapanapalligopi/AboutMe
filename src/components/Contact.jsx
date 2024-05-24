@@ -84,7 +84,6 @@ export default function Contact() {
     <div className={`container ${styles.contactcontainer}`} id="contactsection">
       <div className={styles.contactheading}>
         <h1>Contact Me</h1>
-        <img src={theme} alt="" />
       </div>
       <div className={styles.contact}>
         <div className={styles.contactmetext}>

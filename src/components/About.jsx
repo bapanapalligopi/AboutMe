@@ -8,7 +8,6 @@ export default function About() {
     <div className={`container ${styles.aboutcontainer}`} id="aboutsec">
       <div className={styles.aboutheading}>
         <h1>About Me</h1>
-        <img src={theme} alt="" />
       </div>
       <div className={styles.about}>
         <div className={styles.imageandtheory}>

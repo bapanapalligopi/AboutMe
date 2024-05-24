@@ -11,7 +11,6 @@ const Certifications = () => {
     <div className={`container ${styles.container}`} id="certifications">
       <div className={styles.CertificationsMessage}>
         <h1>Certifications</h1>
-        <img src={theme} alt="" />
       </div>
       <div className={styles.certificates}>
         <div

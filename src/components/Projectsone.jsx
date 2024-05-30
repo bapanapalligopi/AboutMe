@@ -28,7 +28,7 @@ const project5 = {
   description:
     "I've developed a movie review application using Spring Boot, offering users a comprehensive platform to explore new movies, access ratings, and utilize sorting functionalities. With features enabling sorting by rating, release date, and genre, users can easily navigate and discover movies based on their preferences.",
   url: movie,
-  view: "#",
+  view: "https://bapanapalligopi.github.io/MovieReviewsFrontEnd/",
   githuburl: "https://github.com/bapanapalligopi/MovieReviews",
   lang: "Html, Css, JavaScript, React Js,Springboot, Mysql and postman",
 

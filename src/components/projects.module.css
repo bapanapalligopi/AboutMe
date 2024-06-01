@@ -40,15 +40,11 @@
 }
 .singleprojects:hover {
   cursor: pointer;
-  background-image: linear-gradient(50deg, #ffffff, #f021f0, #3fa3ce, #ffffff);
+  /* background-image: linear-gradient(50deg, #ffffff, #f021f0, #3fa3ce, #ffffff); */
   /* background-image: linear-gradient(45deg, #f2eef1, #d8cec4); */
 
   /* background-image: linear-gradient(50 deg, #e8e8e8 #b7b7b7); */
-  .desc,
-  .title {
-    color: black;
-    font-weight: 500;
-  }
+  border: none;
 }
 
 .threeprojects,

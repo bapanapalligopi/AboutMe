@@ -4,17 +4,18 @@ import weather from "../images/weather/weather1.png";
 import calcivideo from "../vidoes/calculator.mp4";
 import recipevideo from "../vidoes/recipemaker.mp4";
 import weathervideo from "../vidoes/weather.mp4";
+import cvideo from "../vidoes/cryptovideo.mp4";
+import crypto from "../images/crypto.png";
 const project1 = {
   id: 7,
-  title: "Calculator App",
+  title: "CryptoCoinFinder",
   description:
-    "The React Calculator app is a user-friendly web application designed to perform arithmetic operations such as addition, subtraction, multiplication, and division. With its intuitive interface, users can input numerical values and execute calculations effortlessly. The app supports both basic and advanced mathematical operations, providing a versatile tool for various calculation needs.",
-  url: calci,
-  view: "https://bapanapalligopi.github.io/Calculator/",
-  githuburl: "https://github.com/bapanapalligopi/Calculator",
-  lang: "Html, Css, JavaScript and React Js.",
-
-  videourl: calcivideo,
+    "CryptoCoinFinder, a cutting-edge web application designed to keep you updated with the latest trends in the cryptocurrency market! Stay informed with real-time data on various cryptocurrencies, track live prices, monitor 24-hour price changes, and gain insights into market capitalization. View detailed 10-day price graphs for each coin using Google Charts, and find your favorite coins easily with our efficient search functionality. Built with the latest technologies in React, CryptoCoinFinder offers a seamless and responsive user experience. ",
+  url: crypto,
+  view: "https://bapanapalligopi.github.io/CryptoCoinPriceFinder/",
+  githuburl: "https://github.com/bapanapalligopi/CryptoCoinPriceFinder",
+  lang: "Html, Css, JavaScript,Google-chats, and React Js.",
+  videourl: cvideo,
 };
 
 const project2 = {

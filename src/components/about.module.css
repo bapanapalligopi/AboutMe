@@ -5,6 +5,7 @@
   justify-content: center;
   z-index: 3;
   margin-top: 10px;
+  /* background-color: white; */
 }
 .aboutheading {
   display: flex;
@@ -27,6 +28,9 @@
   flex-direction: column;
   text-align: center;
   margin-top: 100px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
 }
 .imageandtheory {
   margin-top: 20px;
@@ -49,7 +53,8 @@
 .role p {
   font-size: 20px;
   font-weight: 800;
-  color: #e8e8e8;
+  /* color: #e8e8e8; */
+  color: black;
 }
 .aboutme {
   font-size: 20px;
@@ -70,7 +75,8 @@
 }
 .theory {
   padding: 10px;
-  color: white;
+  /* color: white; */
+  color: black;
   justify-content: left;
   text-align: justify;
   font-weight: 400;
@@ -85,26 +91,30 @@
   flex-direction: column;
   margin-bottom: 10px;
   padding: 10px;
-  color: rgb(174, 173, 173);
+  /* color: rgb(174, 173, 173); */
+  color: black;
 }
 .certificationsmessage {
   font-family: sans-serif;
   font-size: 20px;
   font-weight: bold;
-  background: linear-gradient(10deg, #d2158d 5%, #c8ff00 40%);
-  background-clip: text;
+  /* background: linear-gradient(10deg, #d2158d 5%, #c8ff00 40%); */
+  color: black;
+  /* background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .certificatelink {
   text-decoration: none;
-  color: white;
+  /* color: white; */
+  color: black;
   font-weight: 400;
 }
 .certificate {
   font-size: 15px;
   margin-bottom: 5px;
-  color: white;
+  /* color: white; */
+  color: black;
 }
 .tickmark {
   width: 17px;
@@ -133,18 +143,22 @@
   }
   .aboutphoto {
     height: 30%;
-    width: 90%;
+    width: 100%;
     /* box-shadow: 0px 0px 0px 5px rgb(50, 50, 50); */
     margin: 0px;
+    padding: 10px;
   }
-
+  .about {
+    padding: 0px;
+  }
   .aboutme {
     font-size: 15px;
     text-align: center;
   }
   .role {
     text-align: center;
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 15px;
   }
   .role p {
@@ -159,7 +173,8 @@
     text-align: center;
   }
   .theory {
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 15px;
     text-align: justify;
     margin: 0px;
@@ -177,6 +192,7 @@
   .certificate {
     margin-top: 10px;
     font-size: 15px;
-    color: white;
+    /* color: white; */
+    color: black;
   }
 }

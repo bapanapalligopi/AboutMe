@@ -10,9 +10,9 @@ const Services = () => {
         <h1>My Services</h1>
       </div>
       <div className={styles.allservices}>
-        {AllServices.map((myservice) => {
+        {AllServices.map((myservice, index) => {
           return (
-            <div className={styles.singleService}>
+            <div className={styles.singleService} key={index}>
               <div>
                 <img
                   src={myservice.logo}

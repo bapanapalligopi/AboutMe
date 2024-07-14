@@ -18,11 +18,10 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .allservices {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -32,7 +31,7 @@
 .singleService {
   display: flex;
   flex-direction: row;
-  border: 2px solid #ff00ff;
+  /* border: 2px solid #ff00ff; */
   padding: 20px;
   gap: 30px;
   /* background: linear-gradient(270deg, #f48cf4, #c8ff00); */
@@ -43,9 +42,11 @@
   color: white;
   cursor: pointer;
 }
+
 .serviceimage {
-  width: 700px;
-  height: 400px;
+  /* margin-top: 30px; */
+  width: 400px;
+  height: 300px;
   border-radius: 10px;
 }
 .aboutService {

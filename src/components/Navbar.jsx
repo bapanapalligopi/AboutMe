@@ -14,7 +14,7 @@ export default function Navbar() {
   };
   return (
     <div className={styles.navbar}>
-      <nav className={`navbar navbar-expand-lg   ${styles.navbarcontainer}`}>
+      <nav className={`navbar navbar-expand-lg    ${styles.navbarcontainer}`}>
         <div className="container">
           <div className={`navbar-brand ${styles.brand}`}>
             <img src={logo} alt="BG" className={styles.logo} />

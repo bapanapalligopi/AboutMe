@@ -3,6 +3,7 @@
   position: relative;
   z-index: 3;
   margin-bottom: 40px;
+  /* background-color: black; */
 }
 
 .dataphoto {
@@ -14,13 +15,16 @@
 .myphoto {
   width: 300px;
   height: 300px;
-  border-radius: 50%;
+  /* border: 1px solid white; */
+  padding: 10px;
+  border-radius: 20%;
+  /* border-top: 3px solid #c8ff00; */
 }
 .data {
   border-bottom: 4px solid #525252;
 }
 .hello {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
   color: #b7b7b7;
@@ -28,7 +32,7 @@
   letter-spacing: 0.4rem;
 }
 .role {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
   color: #e8e8e8;
@@ -37,7 +41,6 @@
   font-weight: bolder;
 }
 .name {
-  font-size: 35px;
   font-weight: bolder;
   font-style: italic;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -45,11 +48,12 @@
 
 .lastname,
 .firstname {
-  font-size: 30px;
+  font-size: 50px;
   color: #e8e8e8;
 }
+
 .quicklearner {
-  font-size: xx-large;
+  font-size: 17px;
   color: #b7b7b7;
 }
 @keyframes fadeInUp {
@@ -117,8 +121,8 @@
   .myphoto {
     width: 90%;
     height: 300px;
-    border: none;
-    border-radius: 10px;
+
+    border-top: 8px solid #c8ff00;
     box-shadow: none;
     justify-content: center;
   }

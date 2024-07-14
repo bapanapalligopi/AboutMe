@@ -18,11 +18,11 @@ export default function App() {
       <Navbar />
       <Home />
       <About />
+      <Services />
       <Projects />
       <Skills />
       <Certifications />
       <Profiles />
-      <Services />
       <Contact />
       <Last />
     </div>

@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import photo from "../images/photo.png";
+import photo from "../images/gopi.jpg";
 import resume from "../images/resume.pdf";
 import { Link } from "react-router-dom";
 import { GrLinkedinOption } from "react-icons/gr";
@@ -57,19 +57,19 @@ export default function Home() {
       <div className={styles.socialmedia}>
         <div className={styles.linkedin}>
           <a href="https://www.linkedin.com/in/bapanapalli-gopi-55a2771a7/">
-            <GrLinkedinOption color="	#8c8c8c" />
+            <GrLinkedinOption color="#FFFFFF" />
           </a>
         </div>
         <div className={styles.github}>
           <a href="https://github.com/bapanapalligopi">
             {" "}
-            <FaGithub color="	#8c8c8c" />
+            <FaGithub color="#ffffff" />
           </a>
         </div>
         <div className={styles.mail}>
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZfSkgnkSnKmXQGVgZCflBCwScbdLnHCQLHhFjWJDqcshnGTWqgHMHRvHfnMFpjrHbmxfL">
             {" "}
-            <IoMailUnread color="	#8c8c8c" />
+            <IoMailUnread color="#ffffff" />
           </a>
         </div>
       </div>
